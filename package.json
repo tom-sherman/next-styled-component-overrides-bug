@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "test": "tsx test-script.ts"
   },
   "dependencies": {
     "@types/node": "20.3.2",
@@ -15,8 +16,11 @@
     "eslint": "8.43.0",
     "eslint-config-next": "13.4.7",
     "next": "13.4.7",
+    "puppeteer": "^20.7.3",
     "react": "18.2.0",
     "react-dom": "18.2.0",
+    "styled-components": "6.0.0-rc.6",
+    "tsx": "^3.12.7",
     "typescript": "5.1.3"
   }
 }
